@@ -1,9 +1,9 @@
 <?php
-
-
+session_start();
+require_once('dbcon.php');
 if(!empty(filter_input(INPUT_POST, 'submit'))) {
 
-	require_once('dbcon.php');
+	
 	
 	$un = filter_input(INPUT_POST, 'un') 
 		or die('<script type="text/javascript">

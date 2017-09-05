@@ -15,7 +15,9 @@ session_start();
 </head>
 
 <body>
-<?php require('menu.php'); ?>
+<?php require('menu.php');
+require ('login.php');
+ ?>
 <div id="myCarousel" class="carousel slide up-10" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">

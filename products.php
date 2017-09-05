@@ -1,6 +1,5 @@
 <?php 
-session_start ();
-require_once('login.php');
+session_start();
 ?>
 <!doctype html>
 <html>
@@ -9,7 +8,10 @@ require_once('login.php');
 <title>Products</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <body>
-<?php require('menu.php'); ?>
+<?php require('menu.php'); 
+require('login.php');
+
+?>
 <div class="container">
     <div class="row profile">
 		<div class="col-md-3">

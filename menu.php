@@ -1,11 +1,11 @@
+<?php
+	$fn = basename($_SERVER['PHP_SELF']);
+?>
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <body>
-<?php
-	$fn = basename($_SERVER['PHP_SELF']);
-?>
 <nav>
 <nav class="navbar navbar-default navbar-fixed-top"><body style="padding-top: 70px">
   <div class="container-fluid">
